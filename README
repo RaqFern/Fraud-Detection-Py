@@ -1,0 +1,33 @@
+Online Payments Fraud Detection with Machine Learning
+
+PT-BR - Para identificar transações fraudulentas é preciso treinar um modelo para classificar as transações fraudulentas e não fraudulentas
+
+O dataset está disponível em: https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
+
+As colunas do dataset e suas referências são:
+
+step: representa uma unidade de tempo, onde 1 step equivale a 1 hora
+type: tipo da transação 
+amount: valor da transação
+nameOrig: usuário que iniciou a transação (origem da transação)
+oldbalanceOrg: saldo do usuário que iniciou a transação antes da transação
+newbalanceOrig: saldo do usuário que iniciou a transação depois da transação
+nameDest: usuário que recebeu a transação (destinatário da transação)
+oldbalanceDest: saldo inicial do usuário que recebeu a transação antes da transação
+newbalanceDest: saldo final do usuário que recebeu a transação depois da transação
+isFraud: transação fraudulenta
+
+EN - To identify online payment fraud with machine learning, is necessary to train a machine learning model for classifying fraudulent and non-fraudulent payments.
+
+The dataset is available at https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
+
+step: represents a unit of time where 1 step equals 1 hour
+type: type of online transaction
+amount: the amount of the transaction
+nameOrig: customer starting the transaction
+oldbalanceOrg: balance before the transaction
+newbalanceOrig: balance after the transaction
+nameDest: recipient of the transaction
+oldbalanceDest: initial balance of recipient before the transaction
+newbalanceDest: the new balance of recipient after the transaction
+isFraud: fraud transaction

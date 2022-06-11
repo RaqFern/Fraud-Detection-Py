@@ -11,3 +11,4 @@ print(data.isnull().sum())
 
 # Exploring transaction type
 print(data.type.value_counts())
+
